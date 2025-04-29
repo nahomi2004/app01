@@ -1,4 +1,3 @@
-js
 import $ from 'jquery';
 import dt from 'datatables.net-dt';
 

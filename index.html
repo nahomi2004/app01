@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <title>Tabla con jQuery y DataTables</title>
-  <link rel="stylesheet" href="public/dataTables.dataTables.min.css" />
 </head>
+
 <body>
   <h1>Tabla con jQuery y DataTables</h1>
+
+  <p>Hecho por Richard Ortiz y Nahomi Cabrera</p>
+
   <table id="tabla-ejemplo" class="display">
     <thead>
       <tr><th>Codigo</th><th>Nombre</th></tr>
@@ -19,9 +23,10 @@
   </table>
 
   <hr> 
+
   <button type="submit" id="obtenerInformacion">Obtener Info</button>
   <button type="submit" id="limpiarInformacion">Limpiar Info</button>
 
-  <script type="module" src="src/main.js"></script>
+  <script type="module" src="src/main.js" defer></script>
 </body>
 </html>
